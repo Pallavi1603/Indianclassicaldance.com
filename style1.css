@@ -1,0 +1,84 @@
+body{
+    background-image:url(img1.jpg);
+    background-size:cover;
+    font-family:Arial Black;
+}
+ul{
+    list-style:none;
+    background-color:black;
+    height:70px;
+    width:1311px;
+    margin-top:-8px;
+    margin-left:-10px;
+    margin-right:-10PX;;
+  }
+  li{
+    float:left;
+    margin:5px;
+    padding:1px;
+    font-family:'Arial Black';
+    margin-left:40px;
+  }
+  a{
+    display:block;
+    padding:8px;
+    text-decoration:none;
+    color:white;
+   }
+   a:hover{
+      font:rgb(148, 140, 140);
+     opacity:0.7;
+   }
+.list{
+    max-width:350px;
+    box-sizing:border-box;
+    border-radius:20px;
+    margin:auto;
+    background:rgba(0,0,0,0.8);
+    color:grey;
+    margin-top:100px;
+    padding:40px;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+input[type=text],input[type=password]{
+    width:100%;
+    box-sizing:border-box;
+    padding:12px 5px;
+    outline:none;
+    background:rgba(0,0,0,0.10);
+    border-bottom:1px dotted grey;
+    color:grey;
+    border-radius:5px;
+    margin:5px;
+    font-weight:bold;
+}
+input[type=submit]{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px,0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:rgb(28, 194, 91);
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+}
+input[type=submit]:hover{
+    background:rgb(9, 34, 3);
+    opacity:0.7;
+}
+.login{
+    font-size:small;
+    font-family:arial;
+    color:white;
+    text-align:center;
+}
+a{
+    display:inline-block;
+    color:white;
+}

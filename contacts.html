@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>contact form</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <ul>
+            <b><li><a href="home.html">HOME</a></li></b>
+            <b><li><a href="info.html">INFO</a></li></b>
+            <b><li><a href="contacts.html">CONTACT</a></li></b>
+            <b><li><a href="signup.html">SIGNUP</a></li></b>
+            <b><li><a href="login.html">LOGIN</a></li></b>
+        </ul>
+        <h2>CONTACT US</h2>
+        <div class="list">
+            <form onsubmit="return validation();">
+                <input type="text" placeholder="Enter your name.."required>
+                <label id="lbluser" style="color:red;visibility:hidden">Invalid username</label>
+                <input type="text" placeholder="Enter your email.." required>
+                <label id="lblemail" style="color:red;visibility:hidden">Invalid email</label>
+                <input type="number" placeholder="Contact  no.."required>
+                <label id="lblno" style="color:red;visibility:hidden">Invalid number</label>
+                <input type="submit" value="Submit" onsubmit="return validation()"><br><br>
+            </form>
+        </div>
+        <div class="list1">
+            <u><p>Further details</p></u>
+        </div>
+        <div class="list2">
+            <p>Contact no:9292927376</p>
+            <p>Email:indiandanceclass@gmail.com</p>
+        </div>
+        </body>
+</html>

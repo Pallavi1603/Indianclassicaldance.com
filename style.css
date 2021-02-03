@@ -1,0 +1,73 @@
+
+  body{
+      background-color:black;
+      background-image:linear-gradient(black);
+      padding:10px,2px,0px,1px;
+  }  
+  h1{
+    color:rgb(216, 13, 13);
+    height:40px;
+    font-family:Bodoni MT Black;
+    text-align:center;
+    line-height:0.5rem;
+    margin-top:10px;
+  }
+  ul{
+    list-style:none;
+    height:70px;
+    width:1295px;
+  }
+  li{
+    float:left;
+    margin:5px;
+    padding:1px;
+    font-family:'Arial Black';
+    margin-left:40px;
+  }
+  a{
+    display:block;
+    padding:8px;
+    text-decoration:none;
+    color:white;
+    font-size:larger;
+   }
+   a:hover{
+      font:rgb(148, 140, 140);
+      opacity:0.7;
+   }
+    .img{
+    width:1330px;
+    height:600px;
+    display:block;
+    margin-top:-10px;
+    animation:dance 10s infinite linear;
+    background-image:url("nataraja1.png");
+  }
+  @keyframes dance{
+    0%{background-image:url("nataraja1.png");}
+    35%{background-image:url(payal1.jpg);}
+    75%{background-image:url(IM.jpg);};
+    85%{background-image:url(saroj\ ji.jpg);}
+  }
+  .link{
+    text-align:center;
+    margin-top:80px;
+    color:white;
+    font-size:30px;
+    font-family:arial black;
+    background-image:url(imge.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:900px,300px;
+  }
+  .logo{
+    height:150px;
+    background-color:rgba(128, 128, 128, 0.521);
+    color:black;
+    text-align:center;
+    font-size:25px;
+    font-family:Cambria;
+    margin-left:-50px;
+    margin-right:-8px;
+    margin-bottom:-50px;
+  }
